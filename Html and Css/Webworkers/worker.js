@@ -1,7 +1,5 @@
-var i = 0;
-function timedCount() {
-  i = i + 1;
-  postMessage(i);
-  setTimeout("timedCount()",500);
+for (var j = 0;j<=100000000000;j+=1){
+    var i=j;
+    console.log(i)
 }
-timedCount();
+ postMessage(i);
